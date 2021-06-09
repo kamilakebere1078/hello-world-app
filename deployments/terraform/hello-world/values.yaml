@@ -6,6 +6,7 @@ replicaCount: 10
 
 image:
   # repository: docker.awsnovclass.com/hello-world-stage:729056f
+  # repository: docker.awsnovclass.com/hello-world-stage:736f31f
   repository: docker.awsnovclass.com/hello-world-stage:736f31f
   pullPolicy: IfNotPresent
 
