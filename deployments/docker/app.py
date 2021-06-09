@@ -10,7 +10,7 @@ def hello_world():
         'namespace': os.environ.get('NAMESPACE')
     })
 @app.route('/kkamila')
-def comming_soon():
+def kkamila():
     return jsonify({
         'message': 'This is Kamila Keberes page'
     })
