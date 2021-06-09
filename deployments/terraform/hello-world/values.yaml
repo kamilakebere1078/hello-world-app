@@ -2,10 +2,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 1
+replicaCount: 10
 
 image:
-  repository: docker.awsnovclass.com/hello-world-stage:729056f
+  # repository: docker.awsnovclass.com/hello-world-stage:729056f
+  repository: docker.awsnovclass.com/hello-world-stage:736f31f 
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
